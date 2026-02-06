@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>编程的时候穿什么？</title>
+  <link rel="stylesheet" href="slot-machine.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ 编程穿搭老虎机 ✨</h1>
+    
+    <div class="slot-container">
+      <div class="slot-line">
+        <span class="fixed-text">今天穿 </span>
+        <div class="slot-wheel-wrapper">
+          <div class="slot-wheel" id="wheelA">
+            <div class="slot-items" id="itemsA"></div>
+          </div>
+        </div>
+        <span class="fixed-text">在 </span>
+        <div class="slot-wheel-wrapper">
+          <div class="slot-wheel" id="wheelB">
+            <div class="slot-items" id="itemsB"></div>
+          </div>
+        </div>
+        <span class="fixed-text">写 </span>
+        <div class="slot-wheel-wrapper">
+          <div class="slot-wheel" id="wheelC">
+            <div class="slot-items" id="itemsC"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button id="spinButton">🎰 试试手气！</button>
+    
+    <div id="result">点击按钮开始搭配</div>
+  </div>
+
+  <script src="slot-machine.js"></script>
+</body>
+</html>
